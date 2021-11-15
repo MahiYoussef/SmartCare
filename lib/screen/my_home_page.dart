@@ -10,10 +10,13 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context){
     return Scaffold(
-      appBar(
-        title: Texte('Posts'),
+      appBar: AppBar(
+        title: Text("forum"),
         backgroundColor: Theme.of(context).primaryColor,
-      )
+        centerTitle: true,
+      ),
+      body: Text("post"),
+
     );
   }
 }
